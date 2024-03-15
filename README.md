@@ -1,4 +1,22 @@
-Work on the component analysis (PCA) of the Soybean transcriptome analysis and,
-compare ControlDay1 relications to AlternariaDay1 replications,
-compare ControlDay7 relications to AlternariaDay7 replications and,
-compare ControlDay14 relications to AlternariaDay14 replications
+**RNA-SEQ - Glycin max (Soybean)**
+Control at idp1, idp7, and idp14
+Sample - Alternaria at idp1, idp7, and idp14
+
+**RNA-Seq Pipeline**
+
+This pipeline performs the following tasks:
+
+check the quality of FastQ raw-reads files (using FastQC)
+aggregate fastqc raw files using (using MultiQC)
+trim poor quality (using Trimmomatic)
+generate genome index using STAR
+align reads of each sample in a run against reference genome (using STAR)
+perform quality control on generated BAM files (using Samtools)
+count reads in features (using FeatureCounts)
+normalize read counts (using pyDESeq)
+calculate RPKMs (using edgeR)
+perform DE analysis for standard designs (using pyDESeq2)
+variant calling, filtering and annotation
+Perform PCA (using Scanpy)
+Perform Heatmap(Using Seaborn)
+Perform Volcano (using Bioinfokit)
