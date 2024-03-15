@@ -1,10 +1,10 @@
 **RNA-SEQ - Glycin max (Soybean)**
-Control at idp1, idp7, and idp14
-Sample - Alternaria at idp1, idp7, and idp14
+*Control at idp1, idp7, and idp14*
+*Sample - Alternaria at idp1, idp7, and idp14*
 
 **RNA-Seq Pipeline**
 
-This pipeline performs the following tasks:
+**This pipeline performs the following tasks:**
 
 check the quality of FastQ raw-reads files (using FastQC)
 aggregate fastqc raw files using (using MultiQC)
