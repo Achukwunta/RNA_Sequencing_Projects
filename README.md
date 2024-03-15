@@ -1,6 +1,6 @@
 **RNA-SEQ - Glycin max (Soybean)**  
   *Control at idp1, idp7, idp14*    
-  *Sample - Alternaria at idp1, idp7, and idp14*
+  *Sample - Alternaria at idp1, idp7, idp14*
 
   **RNA-Seq Pipeline**
 
