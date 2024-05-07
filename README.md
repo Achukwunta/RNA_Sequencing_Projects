@@ -1,7 +1,7 @@
 ## Soybean Transcriptome Analysis
 
 ### Overview
-This repository contains scripts and documentation for analyzing the transcriptome of soybean (*Glycine max*). This project provides insights into gene expression patterns and regulatory mechanisms in soybean under various time points (idp1, idp7, and idp14).
+This repository contains scripts and documentation for analyzing the transcriptome of soybean (*Glycine max*). This project provides insights into gene expression patterns and regulatory mechanisms in soybean under various time points (dpi1, dpi7, and dpi14).
 
 ### Dataset
 The dataset used for this analysis consists of RNA sequencing (RNA-seq) data obtained from soybean samples from the Biology Department, Brandon University. The data includes reads generated from different tissues, developmental stages, and experimental treatments.
